@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA22255B28B8F2B2002D0623 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = EA22255A28B8F2B2002D0623 /* Sounds */; };
 		EA84EA0C28B8ED9800A99476 /* HoneyMoonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA84EA0B28B8ED9800A99476 /* HoneyMoonApp.swift */; };
 		EA84EA0E28B8ED9800A99476 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA84EA0D28B8ED9800A99476 /* ContentView.swift */; };
 		EA84EA1028B8ED9A00A99476 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA84EA0F28B8ED9A00A99476 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA22255A28B8F2B2002D0623 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 		EA84EA0828B8ED9800A99476 /* HoneyMoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoneyMoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA84EA0B28B8ED9800A99476 /* HoneyMoonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneyMoonApp.swift; sourceTree = "<group>"; };
 		EA84EA0D28B8ED9800A99476 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 		EA84EA0A28B8ED9800A99476 /* HoneyMoon */ = {
 			isa = PBXGroup;
 			children = (
+				EA22255A28B8F2B2002D0623 /* Sounds */,
 				EA84EA0B28B8ED9800A99476 /* HoneyMoonApp.swift */,
 				EA84EA0D28B8ED9800A99476 /* ContentView.swift */,
 				EA84EA0F28B8ED9A00A99476 /* Assets.xcassets */,
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA22255B28B8F2B2002D0623 /* Sounds in Resources */,
 				EA84EA1328B8ED9A00A99476 /* Preview Assets.xcassets in Resources */,
 				EA84EA1028B8ED9A00A99476 /* Assets.xcassets in Resources */,
 			);
