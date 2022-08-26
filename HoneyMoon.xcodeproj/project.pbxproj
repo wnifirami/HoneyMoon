@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EA22255B28B8F2B2002D0623 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = EA22255A28B8F2B2002D0623 /* Sounds */; };
+		EA22255F28B8F3F0002D0623 /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA22255D28B8F3F0002D0623 /* sound-rise.mp3 */; };
+		EA22256028B8F3F0002D0623 /* sound-click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA22255E28B8F3F0002D0623 /* sound-click.mp3 */; };
 		EA84EA0C28B8ED9800A99476 /* HoneyMoonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA84EA0B28B8ED9800A99476 /* HoneyMoonApp.swift */; };
 		EA84EA0E28B8ED9800A99476 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA84EA0D28B8ED9800A99476 /* ContentView.swift */; };
 		EA84EA1028B8ED9A00A99476 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA84EA0F28B8ED9A00A99476 /* Assets.xcassets */; };
@@ -35,7 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EA22255A28B8F2B2002D0623 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		EA22255D28B8F3F0002D0623 /* sound-rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-rise.mp3"; sourceTree = "<group>"; };
+		EA22255E28B8F3F0002D0623 /* sound-click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-click.mp3"; sourceTree = "<group>"; };
 		EA84EA0828B8ED9800A99476 /* HoneyMoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoneyMoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA84EA0B28B8ED9800A99476 /* HoneyMoonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneyMoonApp.swift; sourceTree = "<group>"; };
 		EA84EA0D28B8ED9800A99476 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,6 +75,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA22255C28B8F3F0002D0623 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				EA22255D28B8F3F0002D0623 /* sound-rise.mp3 */,
+				EA22255E28B8F3F0002D0623 /* sound-click.mp3 */,
+			);
+			name = Sounds;
+			path = "../../../SWIFTUI-APP-03/Resources/Sounds";
+			sourceTree = "<group>";
+		};
 		EA84E9FF28B8ED9800A99476 = {
 			isa = PBXGroup;
 			children = (
@@ -96,7 +108,7 @@
 		EA84EA0A28B8ED9800A99476 /* HoneyMoon */ = {
 			isa = PBXGroup;
 			children = (
-				EA22255A28B8F2B2002D0623 /* Sounds */,
+				EA22255C28B8F3F0002D0623 /* Sounds */,
 				EA84EA0B28B8ED9800A99476 /* HoneyMoonApp.swift */,
 				EA84EA0D28B8ED9800A99476 /* ContentView.swift */,
 				EA84EA0F28B8ED9A00A99476 /* Assets.xcassets */,
@@ -234,7 +246,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA22255B28B8F2B2002D0623 /* Sounds in Resources */,
+				EA22255F28B8F3F0002D0623 /* sound-rise.mp3 in Resources */,
+				EA22256028B8F3F0002D0623 /* sound-click.mp3 in Resources */,
 				EA84EA1328B8ED9A00A99476 /* Preview Assets.xcassets in Resources */,
 				EA84EA1028B8ED9A00A99476 /* Assets.xcassets in Resources */,
 			);
