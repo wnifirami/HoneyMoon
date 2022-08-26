@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA84EA0C28B8ED9800A99476 /* HoneyMoonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA84EA0B28B8ED9800A99476 /* HoneyMoonApp.swift */; };
+		EA84EA0E28B8ED9800A99476 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA84EA0D28B8ED9800A99476 /* ContentView.swift */; };
+		EA84EA1028B8ED9A00A99476 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA84EA0F28B8ED9A00A99476 /* Assets.xcassets */; };
+		EA84EA1328B8ED9A00A99476 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA84EA1228B8ED9A00A99476 /* Preview Assets.xcassets */; };
+		EA84EA1D28B8ED9A00A99476 /* HoneyMoonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA84EA1C28B8ED9A00A99476 /* HoneyMoonTests.swift */; };
+		EA84EA2728B8ED9A00A99476 /* HoneyMoonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA84EA2628B8ED9A00A99476 /* HoneyMoonUITests.swift */; };
+		EA84EA2928B8ED9A00A99476 /* HoneyMoonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA84EA2828B8ED9A00A99476 /* HoneyMoonUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA84EA1928B8ED9A00A99476 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA84EA0028B8ED9800A99476 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA84EA0728B8ED9800A99476;
+			remoteInfo = HoneyMoon;
+		};
+		EA84EA2328B8ED9A00A99476 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA84EA0028B8ED9800A99476 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA84EA0728B8ED9800A99476;
+			remoteInfo = HoneyMoon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA84EA0828B8ED9800A99476 /* HoneyMoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoneyMoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA84EA0B28B8ED9800A99476 /* HoneyMoonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneyMoonApp.swift; sourceTree = "<group>"; };
+		EA84EA0D28B8ED9800A99476 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EA84EA0F28B8ED9A00A99476 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA84EA1228B8ED9A00A99476 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EA84EA1828B8ED9A00A99476 /* HoneyMoonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoneyMoonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA84EA1C28B8ED9A00A99476 /* HoneyMoonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneyMoonTests.swift; sourceTree = "<group>"; };
+		EA84EA2228B8ED9A00A99476 /* HoneyMoonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoneyMoonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA84EA2628B8ED9A00A99476 /* HoneyMoonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneyMoonUITests.swift; sourceTree = "<group>"; };
+		EA84EA2828B8ED9A00A99476 /* HoneyMoonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneyMoonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA84EA0528B8ED9800A99476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA84EA1528B8ED9A00A99476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA84EA1F28B8ED9A00A99476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA84E9FF28B8ED9800A99476 = {
+			isa = PBXGroup;
+			children = (
+				EA84EA0A28B8ED9800A99476 /* HoneyMoon */,
+				EA84EA1B28B8ED9A00A99476 /* HoneyMoonTests */,
+				EA84EA2528B8ED9A00A99476 /* HoneyMoonUITests */,
+				EA84EA0928B8ED9800A99476 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA84EA0928B8ED9800A99476 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA84EA0828B8ED9800A99476 /* HoneyMoon.app */,
+				EA84EA1828B8ED9A00A99476 /* HoneyMoonTests.xctest */,
+				EA84EA2228B8ED9A00A99476 /* HoneyMoonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA84EA0A28B8ED9800A99476 /* HoneyMoon */ = {
+			isa = PBXGroup;
+			children = (
+				EA84EA0B28B8ED9800A99476 /* HoneyMoonApp.swift */,
+				EA84EA0D28B8ED9800A99476 /* ContentView.swift */,
+				EA84EA0F28B8ED9A00A99476 /* Assets.xcassets */,
+				EA84EA1128B8ED9A00A99476 /* Preview Content */,
+			);
+			path = HoneyMoon;
+			sourceTree = "<group>";
+		};
+		EA84EA1128B8ED9A00A99476 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EA84EA1228B8ED9A00A99476 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EA84EA1B28B8ED9A00A99476 /* HoneyMoonTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA84EA1C28B8ED9A00A99476 /* HoneyMoonTests.swift */,
+			);
+			path = HoneyMoonTests;
+			sourceTree = "<group>";
+		};
+		EA84EA2528B8ED9A00A99476 /* HoneyMoonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA84EA2628B8ED9A00A99476 /* HoneyMoonUITests.swift */,
+				EA84EA2828B8ED9A00A99476 /* HoneyMoonUITestsLaunchTests.swift */,
+			);
+			path = HoneyMoonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA84EA0728B8ED9800A99476 /* HoneyMoon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA84EA2C28B8ED9A00A99476 /* Build configuration list for PBXNativeTarget "HoneyMoon" */;
+			buildPhases = (
+				EA84EA0428B8ED9800A99476 /* Sources */,
+				EA84EA0528B8ED9800A99476 /* Frameworks */,
+				EA84EA0628B8ED9800A99476 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoneyMoon;
+			productName = HoneyMoon;
+			productReference = EA84EA0828B8ED9800A99476 /* HoneyMoon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA84EA1728B8ED9A00A99476 /* HoneyMoonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA84EA2F28B8ED9A00A99476 /* Build configuration list for PBXNativeTarget "HoneyMoonTests" */;
+			buildPhases = (
+				EA84EA1428B8ED9A00A99476 /* Sources */,
+				EA84EA1528B8ED9A00A99476 /* Frameworks */,
+				EA84EA1628B8ED9A00A99476 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA84EA1A28B8ED9A00A99476 /* PBXTargetDependency */,
+			);
+			name = HoneyMoonTests;
+			productName = HoneyMoonTests;
+			productReference = EA84EA1828B8ED9A00A99476 /* HoneyMoonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA84EA2128B8ED9A00A99476 /* HoneyMoonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA84EA3228B8ED9A00A99476 /* Build configuration list for PBXNativeTarget "HoneyMoonUITests" */;
+			buildPhases = (
+				EA84EA1E28B8ED9A00A99476 /* Sources */,
+				EA84EA1F28B8ED9A00A99476 /* Frameworks */,
+				EA84EA2028B8ED9A00A99476 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA84EA2428B8ED9A00A99476 /* PBXTargetDependency */,
+			);
+			name = HoneyMoonUITests;
+			productName = HoneyMoonUITests;
+			productReference = EA84EA2228B8ED9A00A99476 /* HoneyMoonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA84EA0028B8ED9800A99476 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					EA84EA0728B8ED9800A99476 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					EA84EA1728B8ED9A00A99476 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = EA84EA0728B8ED9800A99476;
+					};
+					EA84EA2128B8ED9A00A99476 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = EA84EA0728B8ED9800A99476;
+					};
+				};
+			};
+			buildConfigurationList = EA84EA0328B8ED9800A99476 /* Build configuration list for PBXProject "HoneyMoon" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA84E9FF28B8ED9800A99476;
+			productRefGroup = EA84EA0928B8ED9800A99476 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA84EA0728B8ED9800A99476 /* HoneyMoon */,
+				EA84EA1728B8ED9A00A99476 /* HoneyMoonTests */,
+				EA84EA2128B8ED9A00A99476 /* HoneyMoonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA84EA0628B8ED9800A99476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA84EA1328B8ED9A00A99476 /* Preview Assets.xcassets in Resources */,
+				EA84EA1028B8ED9A00A99476 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA84EA1628B8ED9A00A99476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA84EA2028B8ED9A00A99476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA84EA0428B8ED9800A99476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA84EA0E28B8ED9800A99476 /* ContentView.swift in Sources */,
+				EA84EA0C28B8ED9800A99476 /* HoneyMoonApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA84EA1428B8ED9A00A99476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA84EA1D28B8ED9A00A99476 /* HoneyMoonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA84EA1E28B8ED9A00A99476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA84EA2728B8ED9A00A99476 /* HoneyMoonUITests.swift in Sources */,
+				EA84EA2928B8ED9A00A99476 /* HoneyMoonUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA84EA1A28B8ED9A00A99476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA84EA0728B8ED9800A99476 /* HoneyMoon */;
+			targetProxy = EA84EA1928B8ED9A00A99476 /* PBXContainerItemProxy */;
+		};
+		EA84EA2428B8ED9A00A99476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA84EA0728B8ED9800A99476 /* HoneyMoon */;
+			targetProxy = EA84EA2328B8ED9A00A99476 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EA84EA2A28B8ED9A00A99476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA84EA2B28B8ED9A00A99476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA84EA2D28B8ED9A00A99476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HoneyMoon/Preview Content\"";
+				DEVELOPMENT_TEAM = P3MY8KZZK3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rami.HoneyMoon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA84EA2E28B8ED9A00A99476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HoneyMoon/Preview Content\"";
+				DEVELOPMENT_TEAM = P3MY8KZZK3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rami.HoneyMoon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA84EA3028B8ED9A00A99476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P3MY8KZZK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rami.HoneyMoonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoneyMoon.app/HoneyMoon";
+			};
+			name = Debug;
+		};
+		EA84EA3128B8ED9A00A99476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P3MY8KZZK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rami.HoneyMoonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoneyMoon.app/HoneyMoon";
+			};
+			name = Release;
+		};
+		EA84EA3328B8ED9A00A99476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P3MY8KZZK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rami.HoneyMoonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HoneyMoon;
+			};
+			name = Debug;
+		};
+		EA84EA3428B8ED9A00A99476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P3MY8KZZK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rami.HoneyMoonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HoneyMoon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA84EA0328B8ED9800A99476 /* Build configuration list for PBXProject "HoneyMoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA84EA2A28B8ED9A00A99476 /* Debug */,
+				EA84EA2B28B8ED9A00A99476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA84EA2C28B8ED9A00A99476 /* Build configuration list for PBXNativeTarget "HoneyMoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA84EA2D28B8ED9A00A99476 /* Debug */,
+				EA84EA2E28B8ED9A00A99476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA84EA2F28B8ED9A00A99476 /* Build configuration list for PBXNativeTarget "HoneyMoonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA84EA3028B8ED9A00A99476 /* Debug */,
+				EA84EA3128B8ED9A00A99476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA84EA3228B8ED9A00A99476 /* Build configuration list for PBXNativeTarget "HoneyMoonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA84EA3328B8ED9A00A99476 /* Debug */,
+				EA84EA3428B8ED9A00A99476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA84EA0028B8ED9800A99476 /* Project object */;
+}
